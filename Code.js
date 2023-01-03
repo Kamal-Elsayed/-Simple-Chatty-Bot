@@ -1,4 +1,7 @@
 const input = require('sync-input');
+function start() {
+let bot_name = "Kamal Elsayed"
+let birth_year = 2022
 
 
 function greet(bot_name, birth_year) {
@@ -58,3 +61,4 @@ guess_age();
 count();
 // ...
 end();
+}
